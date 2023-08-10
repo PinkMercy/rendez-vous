@@ -5,10 +5,15 @@ import { FullCalendarModule } from '@fullcalendar/angular';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { CalendarComponent } from './calendar/calendar.component';
+import { AppointmentFormComponent } from './appointment-form/appointment-form.component';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CalendarComponent,
+    AppointmentFormComponent
   ],
   imports: [
     BrowserModule,
